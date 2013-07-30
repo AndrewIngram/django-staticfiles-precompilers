@@ -6,7 +6,7 @@ from django.contrib.staticfiles.templatetags.staticfiles import StaticFilesNode 
 from django.contrib.staticfiles.storage import staticfiles_storage
 from django.contrib.staticfiles.finders import find
 
-from staticfiles_additions.conf import settings
+from django.conf import settings
 
 import envoy
 
@@ -20,8 +20,8 @@ class StaticFilesNode(BaseStaticFilesNode):
         path = self.path.resolve(context)
         file_name, file_ext = os.path.splitext(path)
 
-        if file_ext in settings.STATICFILES_COMPILERS:
-            handler = settings.STATICFILES_COMPILERS[file_ext]
+        if file_ext in settings.STATICFILES_PRECOMPILERS:
+            handler = settings.STATICFILES_PRECOMPILERS[file_ext]
             new_path = handler[1].format(file_name=file_name)
             infile = find(path)
 

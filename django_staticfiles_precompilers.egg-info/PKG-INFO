@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: django-staticfiles-precompilers
+Version: 0.0.1
+Summary: Lets Django's static template tag take care of precompilation
+Home-page: https://github.com/AndrewIngram/django-staticfiles-precompilers
+Author: Andrew Ingram
+Author-email: andy@andrewingram.net
+License: MIT
+Description: django-staticfiles-additions
+        ============================
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python

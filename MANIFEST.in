@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include staticfiles_precompilers *.py
+recursive-include staticfiles_precompilers/templatetags *.py

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_staticfiles_precompilers.egg-info/PKG-INFO
+django_staticfiles_precompilers.egg-info/SOURCES.txt
+django_staticfiles_precompilers.egg-info/dependency_links.txt
+django_staticfiles_precompilers.egg-info/requires.txt
+django_staticfiles_precompilers.egg-info/top_level.txt
+staticfiles_precompilers/__init__.py
+staticfiles_precompilers/conf.py
+staticfiles_precompilers/models.py
+staticfiles_precompilers/templatetags/__init__.py
+staticfiles_precompilers/templatetags/staticfiles.py
