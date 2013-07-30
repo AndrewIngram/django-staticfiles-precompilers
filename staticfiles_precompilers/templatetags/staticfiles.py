@@ -8,9 +8,6 @@ from django.contrib.staticfiles.finders import find
 
 from django.conf import settings
 
-import envoy
-
-
 register = template.Library()
 
 
@@ -26,8 +23,6 @@ class StaticFilesNode(BaseStaticFilesNode):
             infile = find(path)
 
             if infile:
-                outfile = infile.replace(path, new_path)
-                envoy.run(handler[0].format(infile=infile, outfile=outfile))
                 path = new_path
         return staticfiles_storage.url(path)
 

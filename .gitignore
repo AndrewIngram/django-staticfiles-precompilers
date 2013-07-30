@@ -4,3 +4,4 @@
 local_settings.py
 
 /dist/
+/django_staticfiles_precompilers.egg-info/PKG-INFO
