@@ -19,6 +19,15 @@ Without this library you'd simply get this::
 
   <link rel="stylesheet" href="/static/foo/bar.scss" />
   
+
+************
+Installation
+************
+
+You can install it from PyPI::
+
+  pip install django-staticfiles-precompilers
+  
   
 *****
 Usage
